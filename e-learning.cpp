@@ -35,6 +35,10 @@ void E-Learning::create-course()
      courses.create();
 }
 
+void E-Learning::update_course()
+{
+     courses.update();
+}
 
 
 int main()
