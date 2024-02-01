@@ -21,6 +21,10 @@ void search_course(String course_id);
 
 }
 
+void E-Learning::update_course()
+{
+     courses.update();
+}
 
 
 int main()
