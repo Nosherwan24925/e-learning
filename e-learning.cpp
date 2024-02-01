@@ -21,6 +21,10 @@ void search_course(String course_id);
 
 }
 
+void E-Learning::organize_course()
+{
+     course.organize();
+}
 
 
 int main()
