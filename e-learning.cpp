@@ -35,9 +35,17 @@ void E-Learning::create-course()
      courses.create();
 }
 
+
 void E-Learning::update_course()
 {
      courses.update();
+     
+}
+
+void E-Learning::organize_course()
+{
+     course.organize();
+ 
 }
 
 
