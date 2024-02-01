@@ -21,6 +21,13 @@ void search_course(String course_id);
 
 }
 
+void E-Learning::Login(Sting user_name,String user_email)
+{
+     if(user_name=="Nosherwan" && user_email=="Noos@gmail.com")
+     {
+        cout<<"Login Sucessful"<<endl;                          
+     }
+ }
 
 
 int main()
