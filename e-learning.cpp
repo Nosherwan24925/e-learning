@@ -19,8 +19,12 @@ void orginize_course();
 void search_course(String course_id);
 
 
-}
+};
 
+void E-Learning::create-course()
+{
+     courses.create();
+}
 
 
 int main()
