@@ -19,7 +19,8 @@ void orginize_course();
 void search_course(String course_id);
 
 
-}
+};
+
 
 void E-Learning::Login(Sting user_name,String user_email)
 {
@@ -28,6 +29,12 @@ void E-Learning::Login(Sting user_name,String user_email)
         cout<<"Login Sucessful"<<endl;                          
      }
  }
+
+void E-Learning::create-course()
+{
+     courses.create();
+}
+
 
 
 int main()
